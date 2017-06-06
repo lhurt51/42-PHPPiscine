@@ -136,7 +136,7 @@ ul {
 
 .msg-box {
 	float: left;
-	position: absolute;
+	position: fixed;
 	bottom: 7.5%;
 	left: 10%;
 	padding: 10px 10px;
