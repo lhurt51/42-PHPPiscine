@@ -19,22 +19,31 @@
 					<ul class="nav-list">
 						<li><img src="resources/arrow.png" alt="Advance"></li>
 						<li><img src="resources/main.png" alt="Take"></li>
-						<li><img src="resources/oeil.png" alt="Look"></li>
+						<li><img id="look" src="resources/oeil.png" alt="Look"></li>
 						<li><img src="resources/outil.png" alt="Use"></li>
 						<li><img src="resources/chat-icon.png" alt="Use"></li>
 					</ul>
 				</aside>
 				<div id="main-img">
 					<img src="resources/cluster.jpg" alt="View port">
+					<a href="http://www.ikea.com/"><div id="zone-1"></div></a>
+					<a href="https://www.apple.com/"><div id="zone-2"></div></a>
 				</div>
 				<aside class="tools">
-					<ul>
-						<li><img src="resources/book.png" alt="Book"></li>
-						<li><img src="resources/towel.png" alt="Towel"></li>
-						<li><img src="resources/brick.jpg" alt="Brick wall"></li>
+					<ul class="tools-list">
+						<li><img id="book" src="resources/book.png" alt="Book"></li>
+						<li><img id="towel" src="resources/towel.png" alt="Towel"></li>
+						<li><div id="brick"></div></li>
 					</ul>
 				</aside>
 			</div>
+		</div>
+		<div class="msg-box">
+			<p>You <strong>enter</strong> a room full of computers...</p>
+			<i>- Hello, are your new here?</i>
+			<br/>
+			<input type="text" name="response" value="">
+			<button type="button" name="button">Respond</button>
 		</div>
 	</body>
 </html>

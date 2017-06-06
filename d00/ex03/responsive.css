@@ -1,0 +1,66 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/1f/e3/bb/1fe3bb3e1bb9ab759b61af1d58df5603.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #FFFFFF
+}
+
+h1 {
+	margin: 40px auto;
+}
+
+footer {
+	margin: 5px;
+	padding: 10px;
+	text-align: right;
+}
+
+table {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	padding: 0px 2.5% 50px 2.5%;
+	text-shadow: none;
+}
+
+tr {
+	width: 100%;
+	height: 10%;
+}
+
+.cell {
+	width: 5.55%;
+	height: 10%;
+}
+
+.empty {
+	width: 100%;
+	height: 40px;
+}
+
+.element {
+	width: 100%;
+	height: 100%;
+	background-color: #0000FF
+}
+
+.elem-id {
+	float: right;
+	font-size: 12px;
+	margin: 7.5px;
+}
+
+.elem-symbol {
+	text-align: center;
+	margin: 5px;
+	clear: right;
+}
+
+.elem-weight {
+	font-size: 12px;
+	margin: 7.5px;
+}
