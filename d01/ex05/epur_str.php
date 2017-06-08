@@ -1,10 +1,11 @@
 #!/usr/bin/php
 <?PHP
 
+$count = 0;
 if ($argc == 2)
 {
-	$ary = explode(" ", trim($argv[1]));
-	print_r($ary);
+	$output = preg_replace('!\s+!', ' ', trim($argv[1]));
+	echo "$output\n";
 }
 
 ?>
