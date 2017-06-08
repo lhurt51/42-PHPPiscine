@@ -3,14 +3,15 @@
 
 $count = 0;
 $rtn_ary = array();
-setlocale(LC_CTYPE, "en_US.UTF-8");
-$options = getopt('#');
-if (!is_array($options) ) {
-    print "There was a problem reading in the options.\n\n";
-    exit(1);
-}
-$errors = array();
-print_r($options);
+echo escapeshellcmd($argv[7]);
+// setlocale(LC_CTYPE, "en_US.UTF-8");
+// $options = getopt('#');
+// if (!is_array($options) ) {
+//     print "There was a problem reading in the options.\n\n";
+//     exit(1);
+// }
+// $errors = array();
+// print_r($options);
 // echo "$options\n";
 foreach ($argv as $elem)
 {

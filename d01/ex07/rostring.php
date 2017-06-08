@@ -5,8 +5,7 @@ if ($argc > 1)
 {
 	$output = preg_replace('!\s+!', ' ', trim($argv[1]));
 	$ary = explode(" ", trim($output));
-	$last = $ary[0];
-	unset($ary[0]);
+	$last = array_shift($ary);
 	array_push($ary, $last);
 	foreach ($ary as $elem)
 	{
