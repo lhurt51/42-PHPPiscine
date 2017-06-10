@@ -3,8 +3,9 @@
 
 echo "Enter a number: ";
 $fd = fopen("php://stdin","r");
-while ($line = trim(fgets($fd)))
+while (($line = fgets($fd)))
 {
+    $line = trim($line);
     if(is_numeric($line)){
         if ($line % 2 == 0)
             echo "The number $line is even\n";

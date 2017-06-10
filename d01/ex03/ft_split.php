@@ -2,9 +2,12 @@
 
 function ft_split($str)
 {
-	$ary = explode(" ", $str);
-	sort($ary);
-	return ($ary);
+	// $i = -1;
+	// $ary = explode(" ", $str);
+	$ary = preg_replace("!\s+!", " ",$str);
+	$next = explode(" ", $ary);
+	sort($next);
+	return ($next);
 }
 
 ?>
