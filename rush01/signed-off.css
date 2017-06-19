@@ -1,0 +1,54 @@
+#title {
+	text-align: center;
+	font-size: 42px;
+	text-decoration: underline;
+}
+
+#t-cap {
+	text-align: center;
+	font-size: 21px;
+}
+
+.my-slides {
+	background-color: blue;
+	border-radius: 10px;
+	box-shadow: 4px 4px 17px 2px rgba(0,0,0,0.61);
+}
+
+.slide {
+	display: none;
+	position: relative;
+	margin: auto;
+}
+
+.slide-btn {
+	margin: 10px;
+	background: none;
+	border: none;
+}
+
+.slide img {
+	padding: 10px;
+	width: 98%;
+}
+
+.nav-slide {
+	width: 225px;
+	position: relative;
+	margin: auto;
+}
+
+.btn-display-left, .btn-display-right, .badge {cursor:pointer}
+
+.badge {
+	height:13px;
+	width:13px;
+	margin: 5px;
+	padding:0;
+	border: solid white 1px;
+	border-radius: 50%;
+}
+
+.back-btn {
+	background-color: red;
+}
